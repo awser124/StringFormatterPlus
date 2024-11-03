@@ -1,10 +1,12 @@
 # StringFormatterPlus
 python StringFormatterPlus (SFP) Library 
 
+---
 ### StringFormatterPlus 简介
 
 **StringFormatterPlus** 是一个旨在提升字符串格式化体验的库，提供了灵活且强大的字符串格式化功能。通过简单易用的接口，用户可以轻松实现字符串的对齐、宽度控制和美观展示，使输出结果更具可读性。这个库特别适合于数据展示，例如表格输出、日志记录、界面/UI展示等场景，帮助开发者提高工作效率。
 
+---
 ### 主要功能：
 
 1. **多种对齐方式**：
@@ -18,7 +20,7 @@ python StringFormatterPlus (SFP) Library
 
 4. **简单易用的接口**：
    - 通过定义清晰的类和方法，用户可以快速上手，无需深入了解底层实现即可高效使用。伴随着详细的文档和示例代码，用户能够迅速掌握库的各种功能。
-
+---
 ### 主要组成部分：
 
 - **Alignment 类**：
@@ -34,7 +36,7 @@ python StringFormatterPlus (SFP) Library
   - 扩展了 FSStringProp 类，提供更高级的字符串格式化功能。用户可以使用自定义的格式字符串进行格式化，实现灵活且复杂的字符串展示。该类支持格式字符串中的字段替换，允许用户根据需要快速定义输出格式，适用于更复杂的格式化需求。
 - **Sample 类**：
   - 示例用法，展示如何使用 StringFormatterPlus 库进行字符串格式化，包含基本用法和进阶技巧。
-
+---
 ### 使用示例：
 
 用户可以通过创建 `FStringProp` 对象，并定义所需的对齐方式和宽度，然后利用 `Formatter` 类将这些信息格式化为一段美观的输出，例如：
